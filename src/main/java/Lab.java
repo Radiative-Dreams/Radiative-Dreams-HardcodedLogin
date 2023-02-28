@@ -16,7 +16,7 @@ public class Lab {
      */
     public boolean login(String username, String password){
         //return ( (username == "admin" && password == "qwerty") || (username == "user" && password == "password") );
-        if(username == "admin" && password == "qwerty") return true;
+        if( username == "admin" && password == "qwerty" ) return true;
         else if(username == "user" && password =="password") return true;
         else return false;
     }
